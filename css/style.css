@@ -19,7 +19,6 @@
       -ms-user-select: none;
           user-select: none;
   overflow: hidden;
-  box-shadow: 0 0 4vh rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 740px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
   #app {
