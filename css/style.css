@@ -94,7 +94,6 @@
   text-align: center;
   width: calc(100% - 6vh);
   margin: 0 2vh;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 .ui-discounts > .ui-text {
   margin: 1vh 0;
