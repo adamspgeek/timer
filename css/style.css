@@ -270,7 +270,7 @@ input#switch:not(:checked) + #app {
           transform: scale(1.2);
 }
 .ui-range-track:after {
-  content: "\f1cb";
+  content: "";
   font-family: FontAwesome;
   font-size: 4vh;
   line-height: 8vh;
