@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Reactive Timeframe Concept</title>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+</head>
+
+<body>
+  <input type="checkbox" id="switch" />
+<div id="app">
+  <header class="ui-header">
+    <i class="fa fa-chevron-left"></i>
+    <div class="ui-text -app-title"></div>
+    <div class="ui-text"></div>
+  </header>
+  <main class="ui-content">
+    <div class="ui-discounts">
+      <i class="fa fa-codepen"></i>
+      <div class="ui-text"></div>
+    </div>
+    <div class="ui-value">
+      <div class="ui-digit" id="num1"></div>
+      <div class="ui-digit" id="num2"></div>
+    </div>
+    <div class="ui-panel">
+      <div class="ui-range-ticks">
+        <div class="ui-range-tick" data-value="0"></div>
+        <div class="ui-range-tick" data-value="3"></div>
+        <div class="ui-range-tick" data-value="6"></div>
+        <div class="ui-range-tick" data-value="9"></div>
+        <div class="ui-range-tick" data-value="12"></div>
+      </div>
+      <div class="ui-range" id="rangeTrack">
+        <input
+          type="range"
+          id="range"
+          class="ui-range-input"
+          min="0"
+          max="12"
+          step="1"
+          value="6"
+        />
+        <div class="ui-range-track">
+          <div class="ui-range-thumb"></div>
+        </div>
+      </div>
+      
+      <div class="ui-controls">
+        <div class="ui-switch">
+          <label
+            class="ui-switch-track"
+            for="switch"
+            title="on/off"
+          >
+          </label>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+  <script src='https://unpkg.com/@reactivex/rxjs@5.1.1/dist/global/Rx.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
