@@ -20,7 +20,7 @@
           user-select: none;
   overflow: hidden;
 }
-@media (max-width: 980px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+@media (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
   #app {
     width: 100%;
     height: 100%;
